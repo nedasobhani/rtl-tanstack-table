@@ -2,7 +2,6 @@
   "name":"@nedasobhani/rtl-tanstack-table",
   "version":"8.9.3",
   "description": "fix column sizing problem in rtl mode",
-  "private": true,
   "repository": "https://github.com/tanstack/table.git",
   "scripts": {
     "clean": "npm exec --workspaces -c \"rm -rf build || true\"",
