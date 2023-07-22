@@ -1,9 +1,9 @@
 {
-  "name":"@nedasobhani/rtl-tanstack-table/react-table",
+  "name":"@nedasobhani/rtl-tanstack-react-table",
   "version":"8.9.3",
   "description": "fix column sizing problem in rtl mode",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/nedasobhani/rtl-tanstack-table#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nedasobhani/rtl-tanstack-table.git"
@@ -42,7 +42,7 @@
     "src"
   ],
   "dependencies": {
-    "@tanstack/table-core": "8.9.3"
+    "@nedasobhani/rtl-tanstack-core-table": "8.9.3"
   },
   "peerDependencies": {
     "react": ">=16",

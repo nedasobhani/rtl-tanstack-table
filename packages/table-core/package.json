@@ -1,13 +1,12 @@
 {
-  "name": "@tanstack/table-core",
-  "author": "Tanner Linsley",
-  "version": "8.9.3",
-  "description": "Headless UI for building powerful tables & datagrids for TS/JS.",
+  "name":"@nedasobhani/rtl-tanstack-core-table",
+  "version":"8.9.3",
+  "description": "fix column sizing problem in rtl mode",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/nedasobhani/rtl-tanstack-table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/nedasobhani/rtl-tanstack-table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
