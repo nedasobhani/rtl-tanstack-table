@@ -84,6 +84,7 @@ export interface CoreOptions<TData extends RowData> {
   columns: ColumnDef<TData, any>[]
   defaultColumn?: Partial<ColumnDef<TData, unknown>>
   renderFallbackValue: any
+  rtl?: boolean
 }
 
 export interface CoreInstance<TData extends RowData> {
