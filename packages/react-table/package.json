@@ -1,13 +1,12 @@
 {
-  "name": "@tanstack/react-table",
-  "author": "Tanner Linsley",
-  "version": "8.9.3",
-  "description": "Headless UI for building powerful tables & datagrids for React.",
+  "name":"@nedasobhani/rtl-tanstack-table/react-table",
+  "version":"8.9.3",
+  "description": "fix column sizing problem in rtl mode",
   "license": "MIT",
   "homepage": "https://github.com/tanstack/table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/nedasobhani/rtl-tanstack-table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
