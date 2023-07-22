@@ -234,11 +234,11 @@ export const ColumnSizing: TableFeature = {
                 deltaOffset / (old?.startSize ?? 0),
                 -0.999999
               )
-
+              const isRtl = !!table.options.rtl
               old.columnSizingStart.forEach(([columnId, headerSize]) => {
                 newColumnSizing[columnId] =
                   Math.round(
-                    Math.max(headerSize + headerSize * deltaPercentage, 0) * 100
+                    Math.max(headerSize + (headerSize * deltaPercentage * (isRtl ? -1 : 1)), 0) * 100
                   ) / 100
               })
 
