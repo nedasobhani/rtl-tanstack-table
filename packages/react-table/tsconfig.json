@@ -7,5 +7,5 @@
     "tsBuildInfoFile": "./build/.tsbuildinfo"
   },
   "include": ["src"],
-  "references": [{ "path": "../table-core" }]
+  "references": [{ "path": "../rtl-tanstack-core-table" }]
 }
